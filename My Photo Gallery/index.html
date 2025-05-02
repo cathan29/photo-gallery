@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Photo Gallery</h1>
+    </header>
+    <main class="gallery">
+        <figure>
+            <img src="images\471768957_1137296491399191_4780485716305935923_n.jpg" alt="Photo 1" class="thumbnail">
+            <figcaption>Photo 1</figcaption>
+        </figure>
+        <figure>
+            <img src="images\448603524_1008590544269787_8552799530748744355_n.jpg" alt="Photo 2" class="thumbnail">
+            <figcaption>Photo 2</figcaption>
+        </figure>
+        <figure>
+            <img src="images\680xAUTO_original_article_2021_07_60ec4f1b5d566.jpeg" alt="Photo 3" class="thumbnail">
+            <figcaption>Photo 3</figcaption>
+        </figure>
+        <figure>
+            <img src="images\1890365-HSC00002-7.jpg" alt="Photo 4" class="thumbnail">
+            <figcaption>Photo 4</figcaption>
+        </figure>
+        <figure>
+            <img src="images\melancholia.jpg" alt="Photo 5" class="thumbnail">
+            <figcaption>Photo 5</figcaption>
+        </figure>
+        <figure>
+            <img src="images\pexels-photo-8725223.jpeg" alt="Photo 6" class="thumbnail">
+            <figcaption>Photo 6</figcaption>
+        </figure>
+    </main>
+    <div id="lightbox" class="hidden">
+        <span id="close-btn">&times;</span>
+        <img id="lightbox-img" src="images\pexels-photo-8725223.jpeg" alt="Full-size image">
+        <div id="lightbox-nav">
+            <button id="prev-btn">&#10094;</button>
+            <button id="next-btn">&#10095;</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
